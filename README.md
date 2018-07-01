@@ -8,13 +8,13 @@ This fastify plugin checks if a user meets the required browser features or redi
 const fastify = require("fastify")();
 
 fastify.register(require("fastify-require-feature"), {
-	features: ["flexbox"], // features which need to be supported 100% 
-	partially: ["fetch"], // feature which can be supported partially
-	action: "http://link.org", // or
-	action: (request, reply, done) => {
-		// Like a fastify hook
-		done();
-	}
+    features: ["flexbox"], // features which need to be supported 100% 
+    partially: ["fetch"], // feature which can be supported partially
+    action: "http://link.org", // or
+    action: (request, reply, done) => {
+        // Like a fastify hook
+        done();
+    }
 });
 
 // Your stuff
