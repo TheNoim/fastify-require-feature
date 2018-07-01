@@ -43,15 +43,7 @@ avvio@^5.4.3:
     debug "^3.1.0"
     fastq "^1.6.0"
 
-browserslist-useragent@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/browserslist-useragent/-/browserslist-useragent-1.1.0.tgz#23ae45f560594db8501b50e67afaa3102f0c6101"
-  dependencies:
-    browserslist "^2.9.1"
-    semver "^5.4.1"
-    useragent "^2.2.1"
-
-browserslist@^2.0.0, browserslist@^2.9.1:
+browserslist@^2.0.0:
   version "2.11.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-2.11.3.tgz#fe36167aed1bbcde4827ebfe71347a2cc70b99b2"
   dependencies:
@@ -329,7 +321,7 @@ semver-store@^0.2.0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/semver-store/-/semver-store-0.2.2.tgz#e6c65e4e94e2e5f662e1efaaa8112dae302cbdcf"
 
-semver@^5.4.1, semver@^5.5.0:
+semver@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
 
@@ -374,7 +366,7 @@ uri-js@^4.2.1:
   dependencies:
     punycode "^2.1.0"
 
-useragent@^2.2.1, useragent@^2.3.0:
+useragent@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/useragent/-/useragent-2.3.0.tgz#217f943ad540cb2128658ab23fc960f6a88c9972"
   dependencies:

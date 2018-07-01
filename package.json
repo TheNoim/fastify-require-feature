@@ -7,7 +7,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "browserslist-useragent": "^1.1.0",
     "caniuse-api": "^2.0.0",
     "fastify-plugin": "^1.1.3",
     "lodash.get": "^4.4.2",
