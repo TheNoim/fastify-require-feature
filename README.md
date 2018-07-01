@@ -10,7 +10,7 @@ const fastify = require("fastify")();
 fastify.register(require("fastify-require-feature"), {
 	features: ["flexbox"], // features which need to be supported 100% 
 	partially: ["fetch"], // feature which can be supported partially
-	action: "http://link.org" // or
+	action: "http://link.org", // or
 	action: (request, reply, done) => {
 		// Like a fastify hook
 		done();
