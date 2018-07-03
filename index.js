@@ -83,6 +83,6 @@ module.exports = fp(function (fastify, opts, next) {
 
     next()
 }, {
-    fastify: '^1.1.0',
+    fastify: '^1.0.0-rc.1',
     name: "fastify-require-feature"
 });
