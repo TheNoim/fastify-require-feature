@@ -1,6 +1,6 @@
 {
   "name": "fastify-require-feature",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mark some browser features as required to use the page",
   "main": "index.js",
   "author": "Nils Bergmann",
